@@ -205,10 +205,90 @@ header ul a:hover {
   height: auto;
   padding-top: var(--basic-padding);
   margin-top: var(--basic-min-padding);
+  overflow: hidden;
 }
 .section-five span {
   font-size: 3vw;
 }
 .section-five h1 {
   font-size: 1.5vw;
+}
+.section-five img {
+  width: 100%;
+}
+.section-five-portfolio {
+  display: flex;
+  flex-flow: column;
+  padding-top: var(--basic-min-padding);
+  position: relative;
+}
+.section-five-portfolio p {
+  font-size: 1.3vw;
+  padding: 5px;
+}
+.section-five-portfolio span {
+  font-size: 1.3vw;
+  background-color: rgba(226, 134, 149, 0.3);
+}
+.section-five-portfolio #prev, .section-five-portfolio #next {
+  width: 5vw;
+  position: absolute;
+  z-index: 2;
+  opacity: 0.9;
+  cursor: pointer;
+}
+.section-five-portfolio #prev {
+  left: 0%;
+  top: 33%;
+  transform: rotate(180deg);
+}
+.section-five-portfolio #next {
+  right: 0%;
+  top: 33%;
+}
+.section-five .slide {
+  width: 800%;
+  display: flex;
+}
+.section-five .slide li {
+  width: 100%;
+}
+.section-five .portfolio-show {
+  padding-top: 20px;
+}
+.section-five .portfolio-show h1 {
+  font-size: 1.3vw;
+  letter-spacing: 3px;
+  padding-bottom: 10px;
+}
+.section-five .portfolio-show-button {
+  padding-top: 10px;
+}
+.section-five .portfolio-show-button button {
+  width: 6vw;
+  height: 3vw;
+  cursor: pointer;
+  border: 0;
+  background-color: rgba(226, 134, 149, 0.3);
+}
+.section-six {
+  width: 100%;
+  height: auto;
+  padding-top: var(--basic-padding);
+  margin-top: var(--basic-min-padding);
+}
+.section-six span {
+  font-size: 3vw;
+}
+.section-six h1 {
+  font-size: 1.5vw;
+}
+
+footer {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/contact.png);
+  background-size: 100% 100%;
+  padding-top: var(--basic-padding);
+  margin-top: var(--basic-min-padding);
 }
