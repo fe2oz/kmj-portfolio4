@@ -247,7 +247,7 @@ header ul a:hover {
   top: 26%;
 }
 .section-five .slide {
-  width: 800%;
+  width: 700%;
   display: flex;
 }
 .section-five .slide li {
@@ -256,7 +256,7 @@ header ul a:hover {
 .section-five .portfolio-show {
   padding-top: 20px;
 }
-.section-five .portfolio-show h1 {
+.section-five .portfolio-show pre {
   font-size: 1.3vw;
   letter-spacing: 3px;
   padding-bottom: 10px;
