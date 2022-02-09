@@ -247,7 +247,7 @@ header ul a:hover {
   top: 26%;
 }
 .section-five .slide {
-  width: 700%;
+  width: 800%;
   display: flex;
 }
 .section-five .slide li {
@@ -275,7 +275,6 @@ header ul a:hover {
   width: 100%;
   height: auto;
   padding-top: var(--basic-padding);
-  margin-top: var(--basic-min-padding);
 }
 .section-six span {
   font-size: 3vw;
