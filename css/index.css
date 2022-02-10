@@ -143,7 +143,8 @@ header ul a:hover {
   cursor: pointer;
 }
 .section-two-about h1 .otherskils {
-  color: #919191;
+  color: #e28695;
+  font-weight: bold;
 }
 .section-three {
   width: 100%;
